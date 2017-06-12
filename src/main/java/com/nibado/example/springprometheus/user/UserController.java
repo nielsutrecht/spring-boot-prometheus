@@ -12,7 +12,6 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/user")
 public class UserController {
-
     static final Summary userRequests = Summary.build()
             .name("user_requests_seconds")
             .help("User request latency in seconds.")

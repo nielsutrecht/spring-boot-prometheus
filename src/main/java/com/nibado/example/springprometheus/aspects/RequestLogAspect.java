@@ -57,7 +57,7 @@ public class RequestLogAspect {
                     request.getMethod(),
                     request.getRequestURI(),
                     ms,
-                    request.getHeader("user-id"));
+                    request.getHeader("session-id"));
         }
 
         return value;
